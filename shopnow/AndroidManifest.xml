@@ -1,0 +1,58 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shopnow"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Trans" >
+        <activity
+            android:name="com.shopnow.main.SignIn"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.shopnow.display.DisplayItem" >
+        </activity>
+        <activity android:name="com.shopnow.display.DisplayItems" >
+        </activity>
+        <activity android:name="com.shopnow.display.DisplayPromotion" >
+        </activity>
+        <activity android:name="com.shopnow.display.DisplayPromotions" >
+        </activity>
+        <activity android:name="com.shopnow.display.DisplayStore" >
+        </activity>
+        <activity android:name="com.shopnow.main.Home" >
+        </activity>
+        <activity
+            android:name="com.shopnow.main.SignUp"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.shopnow.menu.Account"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity android:name="com.shopnow.menu.Contact" >
+        </activity>
+        <activity android:name="com.shopnow.menu.Preferences" >
+        </activity>
+        <activity android:name="com.shopnow.menu.Settings" >
+        </activity>
+        <activity android:name="com.shopnow.menu.WatchList" >
+        </activity>
+        <activity android:name="com.shopnow.opr.CustomItemSearch" >
+        </activity>
+    </application>
+
+</manifest>

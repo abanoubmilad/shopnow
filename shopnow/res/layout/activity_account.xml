@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/activity_header" />
+        
+
+        <TextView
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accountinfo" />
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/input"
+            android:hint="@string/name"
+            android:inputType="textPersonName" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/input"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/mobile"
+            style="@style/input"
+            android:hint="@string/mob"
+            android:inputType="phone" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/tel"
+            style="@style/input"
+            android:hint="@string/tel"
+            android:inputType="phone" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/address"
+            style="@style/input"
+            android:hint="@string/address"
+            android:inputType="textMultiLine"
+            android:minLines="3" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/edit"
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit" />
+
+        <TextView
+            android:id="@+id/change"
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change" />
+    </LinearLayout>
+
+</ScrollView>

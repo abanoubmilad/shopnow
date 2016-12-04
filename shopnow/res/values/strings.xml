@@ -1,0 +1,87 @@
+<resources>
+
+    <string name="app_name">ShopNow</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="pass">Password</string>
+    <string name="conpass">Confirm password</string>
+    <string name="mob">Mobile Phone</string>
+    <string name="tel">Home Phone</string>
+    <string name="signin">Sign in</string>
+    <string name="signin_u"><u>Sign in</u></string>
+    <string name="signup">Sign up</string>
+    <string name="forgot"><u>forgot password ?</u></string>
+    <string name="create1"><u>Create account for ShopNow</u></string>
+    <string name="rem">remember me</string>
+    <string name="help"><u>help</u></string>
+    <string name="about"><u>about</u></string>
+    <string name="contact">contact us</string>
+    <string name="contact_u"><u>contact us</u></string>
+    <string name="logotext">a smart shopping guide</string>
+    <string name="terms">By Clicking Create Account you agree to the Privacy Policy, Terms and Conditions</string>
+    <string name="create2">Create account</string>
+    <string name="save">Save</string>
+    <string name="savechanges"><u>Save changes</u></string>
+    <string name="skip">skip</string>
+    <string name="edit"><u>Edit account</u></string>
+    <string name="change"><u>Change password</u></string>
+    <string name="prefernces">Prefernces</string>
+    <string name="account">Account</string>
+    <string name="accountinfo">Account information</string>
+    <string name="like">Like us</string>
+    <string name="logout">Log out</string>
+    <string name="fb">facebook</string>
+    <string name="fillinfo">Fill out your account info</string>
+    <string name="choose">Choose out your shopping category preferences; your preferences help us making better shopping suggestions and recommendations.</string>
+    <string name="settings">Account settings</string>
+    <string name="watch">Watch the market for</string>
+    <string name="notify">Notify me about promotions, recommendations and new arrivals every</string>
+    <string name="hour">hour</string>
+    <string name="and">and</string>
+    <string name="day">day</string>
+    <string name="msg.progress.fetch.shooping.cats">fetching shopping categories</string>
+    <string name="msg.progress.fetch.promotions.cats">fetching promotion categories</string>
+    <string name="msg.progress.login">logging in</string>
+    <string name="msg.progress.signup">creating account</string>
+    <string name="msg.progress.fetch.promotion">feteching promotion</string>
+    <string name="msg.progress.fetch.promotions">fetching promotions</string>
+    <string name="msg.progress.fetch.preferences">loading preferences</string>
+    <string name="msg.progress.add.watchlist">adding to watchlist</string>
+    <string name="msg.progress.fetch.watchlist">loading watchlist</string>
+    <string name="msg.progress.search">searching</string>
+    <string name="msg.progress.fetch.store">fetching store</string>
+    <string name="msg.progress.fetch.stores">fetching stores</string>
+    <string name="msg.progress.fetch.item">fetching item</string>
+    <string name="msg.progress.fetch.items">fetching items</string>
+    <string name="msg.progress.loading">loading, please wait</string>
+    <string name="custom"><u>Custom search</u></string>
+    <string name="sortby">Sort by</string>
+    <string name="label.search">search</string>
+    
+    <string-array name="hour">
+        <item>0</item>
+        <item>3</item>
+        <item>6</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="day">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="details">Details</string>
+    <string name="promotions">Promotions</string>
+    <string name="items">Items included</string>
+    <string name="where">Where to buy</string>
+
+    <string-array name="sortby">
+        <item>Popularity</item>
+        <item>Top Rated</item>
+        <item>Price Low to High</item>
+        <item>Price High to Low</item>
+    </string-array>
+
+</resources>
